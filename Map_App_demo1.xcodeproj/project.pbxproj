@@ -13,6 +13,8 @@
 		D54D302F264E4B0400478E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54D302D264E4B0400478E38 /* Main.storyboard */; };
 		D54D3031264E4B0500478E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54D3030264E4B0500478E38 /* Assets.xcassets */; };
 		D54D3034264E4B0500478E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54D3032264E4B0500478E38 /* LaunchScreen.storyboard */; };
+		D54D303E264E4B7900478E38 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54D303C264E4B7900478E38 /* Place.swift */; };
+		D54D303F264E4B7900478E38 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = D54D303D264E4B7900478E38 /* Places.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D54D3030264E4B0500478E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D54D3033264E4B0500478E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54D3035264E4B0500478E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54D303C264E4B7900478E38 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		D54D303D264E4B7900478E38 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		D54D3026264E4B0400478E38 /* Map_App_demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				D54D303C264E4B7900478E38 /* Place.swift */,
+				D54D303D264E4B7900478E38 /* Places.plist */,
 				D54D3027264E4B0400478E38 /* AppDelegate.swift */,
 				D54D3029264E4B0400478E38 /* SceneDelegate.swift */,
 				D54D302B264E4B0400478E38 /* ViewController.swift */,
@@ -126,6 +132,7 @@
 			files = (
 				D54D3034264E4B0500478E38 /* LaunchScreen.storyboard in Resources */,
 				D54D3031264E4B0500478E38 /* Assets.xcassets in Resources */,
+				D54D303F264E4B7900478E38 /* Places.plist in Resources */,
 				D54D302F264E4B0400478E38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				D54D302C264E4B0400478E38 /* ViewController.swift in Sources */,
 				D54D3028264E4B0400478E38 /* AppDelegate.swift in Sources */,
 				D54D302A264E4B0400478E38 /* SceneDelegate.swift in Sources */,
+				D54D303E264E4B7900478E38 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
